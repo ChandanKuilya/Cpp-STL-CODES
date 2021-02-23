@@ -253,6 +253,7 @@ return 0;
     //GOOD ARTICLE:
 //https://www.geeksforgeeks.org/binary-search-functions-in-c-stl-binary_search-lower_bound-and-upper_bound/
 
+/*
 #include<iostream>
 #include<algorithm>
 using namespace std;
@@ -268,6 +269,8 @@ sort(arr,arr+n); // 1 1 1 2 3 4 5 7 9 10 10 10 11 13 19 19 19 22 34
 
 int key;
 cin>>key;
+
+*/
 
 //bool present=binary_search(arr,arr+n,key);
 
