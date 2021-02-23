@@ -280,8 +280,15 @@ else
   cout<<key<<" is not present in the array."<<'\n';
   */
 
+/*
 auto it=lower_bound(arr,arr+n,key);
-int pos=(it-arr);
+int pos=(it-arr);                        
+ //Incase of vector<int>v={13,19,7,9,22,1,34,11,3,5,2,4,10,19,1,10,1,19,10};
+  // int pos=(lower_bound(v.begin,v.end(),key)-v.begin());
+  // i.e. incase of vector v,
+  //auto it=lower_bound(v.begin(),v.end(),key);
+  //and to find pos,
+    // int pos=it-v.begin();
 
 cout<<"position of "<<key<<" using lower bound is: "<<pos<<'\n';
 
@@ -301,7 +308,30 @@ cout<<"Occurance frequency of "<<key<<" the array is: "<<occurance<<'\n';
   return 0;
 }
 
+*/
 
+//GCD:
+/*
+#include<iostream>
+#include<algorithm>
+using namespace std;
+
+int main(){
+
+   int  a,b;
+   cin>>a>>b;
+
+   int gcd=__gcd(a,b);
+
+   cout<<"GCD OF "<< a <<" & "<<b<<" is: "<<gcd<<'\n';
+
+   cout<<"LCM OF "<< a <<" & "<<b<<" is: "<<((a*b)/gcd)<<'\n';
+
+
+
+return 0;
+}
+*/
 
 
 
